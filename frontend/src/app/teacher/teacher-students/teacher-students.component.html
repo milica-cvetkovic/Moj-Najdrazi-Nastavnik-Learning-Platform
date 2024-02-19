@@ -1,0 +1,29 @@
+<app-teacher-navbar></app-teacher-navbar>
+
+<div class="container">
+
+    <h2>Svi učenici</h2>
+    <table mat-table [dataSource]="uceniciUnique" class="mat-elevation-z8">
+
+        <ng-container matColumnDef="rb">
+          <th mat-header-cell *matHeaderCellDef> No. </th>
+          <td mat-cell *matCellDef="let ucenik; let i=index"> {{i+1}} </td>
+        </ng-container>
+        
+          <ng-container matColumnDef="ucenik">
+            <th mat-header-cell *matHeaderCellDef> Učenik </th>
+            <td mat-cell *matCellDef="let ucenik"> {{ucenik.ucenikKombinovano.at(0).ime}} {{ucenik.ucenikKombinovano.at(0).prezime}}</td>
+          </ng-container>
+        
+          <ng-container matColumnDef="dosije">
+            <th mat-header-cell *matHeaderCellDef> Dosije </th>
+            <td mat-cell *matCellDef="let ucenik">
+                <button mat-raised-button (click)="dosije(ucenik.ucenikKombinovano.at(0).korisnicko_ime)">Pogledaj dosije</button>
+            </td>
+          </ng-container>
+
+          <tr mat-header-row *matHeaderRowDef="kolone"></tr>
+          <tr mat-row *matRowDef="let row; columns: kolone;"></tr>
+        </table>  
+
+</div>

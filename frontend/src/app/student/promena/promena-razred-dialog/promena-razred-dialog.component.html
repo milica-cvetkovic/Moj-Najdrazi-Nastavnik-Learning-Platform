@@ -1,0 +1,12 @@
+<mat-dialog-content>
+    <p>Unesi izmenjen trenutni razred</p>
+    <mat-form-field>
+      <mat-label>Trenutni razred</mat-label>
+      <input matInput [(ngModel)]="data.trenutni_razred">
+    </mat-form-field>
+  </mat-dialog-content>
+  <mat-dialog-actions>
+    <button mat-button (click)="ponistiRazred()">Ponisti</button>
+    <button mat-button [mat-dialog-close]="data.trenutni_razred" cdkFocusInitial>Izmeni</button>
+  </mat-dialog-actions>
+  

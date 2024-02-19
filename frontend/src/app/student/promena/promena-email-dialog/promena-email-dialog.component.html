@@ -1,0 +1,12 @@
+<mat-dialog-content>
+    <p>Unesi izmenjen email</p>
+    <mat-form-field>
+      <mat-label>Email</mat-label>
+      <input matInput [(ngModel)]="data.email">
+    </mat-form-field>
+  </mat-dialog-content>
+  <mat-dialog-actions>
+    <button mat-button (click)="ponistiEmail()">Ponisti</button>
+    <button mat-button [mat-dialog-close]="data.email" cdkFocusInitial>Izmeni</button>
+  </mat-dialog-actions>
+  

@@ -1,0 +1,195 @@
+[{
+  "_id": {
+    "$oid": "65d088be0973af736f104e4c"
+  },
+  "datum": {
+    "$date": "2024-02-21T12:30:00.000Z"
+  },
+  "nastavnik": "drazen",
+  "ucenik": "milicac",
+  "status": "P",
+  "predmet": "Programiranja",
+  "procitano": 0
+},
+{
+  "_id": {
+    "$oid": "65d088c10973af736f104e53"
+  },
+  "datum": {
+    "$date": "2024-02-20T13:00:00.000Z"
+  },
+  "nastavnik": "drazen",
+  "ucenik": "milicac",
+  "status": "P",
+  "predmet": "Informatika",
+  "procitano": 0
+},
+{
+  "_id": {
+    "$oid": "65d088c40973af736f104e5a"
+  },
+  "datum": {
+    "$date": "2024-02-20T10:00:00.000Z"
+  },
+  "nastavnik": "drazen",
+  "ucenik": "milicac",
+  "status": "P",
+  "predmet": "Filozofija",
+  "procitano": 1
+},
+{
+  "_id": {
+    "$oid": "65d088c80973af736f104e61"
+  },
+  "datum": {
+    "$date": "2024-02-22T11:00:00.000Z"
+  },
+  "nastavnik": "drazen",
+  "ucenik": "milicac",
+  "status": "P",
+  "predmet": "Engleski jezik",
+  "procitano": 1
+},
+{
+  "_id": {
+    "$oid": "65d08a860973af736f104ea4"
+  },
+  "datum": {
+    "$date": "2024-02-28T11:30:00.000Z"
+  },
+  "nastavnik": "tasha",
+  "ucenik": "lidijac",
+  "status": "P",
+  "predmet": "Hemija",
+  "procitano": 0
+},
+{
+  "_id": {
+    "$oid": "65d0b36047d9561bb0c04a12"
+  },
+  "datum": {
+    "$date": "2024-02-21T15:00:00.000Z"
+  },
+  "nastavnik": "drazen",
+  "ucenik": "zeljko",
+  "status": "P",
+  "predmet": "Engleski jezik",
+  "procitano": 0
+},
+{
+  "_id": {
+    "$oid": "65d0b36247d9561bb0c04a19"
+  },
+  "datum": {
+    "$date": "2024-02-23T13:00:00.000Z"
+  },
+  "nastavnik": "drazen",
+  "ucenik": "zeljko",
+  "status": "P",
+  "predmet": "Informatika",
+  "procitano": 0
+},
+{
+  "_id": {
+    "$oid": "65d0b36447d9561bb0c04a20"
+  },
+  "datum": {
+    "$date": "2024-02-23T12:00:00.000Z"
+  },
+  "nastavnik": "drazen",
+  "ucenik": "anja",
+  "status": "P",
+  "predmet": "Filozofija",
+  "procitano": 0
+},
+{
+  "_id": {
+    "$oid": "65d0b36747d9561bb0c04a27"
+  },
+  "datum": {
+    "$date": "2024-02-22T14:00:00.000Z"
+  },
+  "nastavnik": "drazen",
+  "ucenik": "anja",
+  "status": "P",
+  "predmet": "Engleski jezik",
+  "procitano": 0
+},
+{
+  "_id": {
+    "$oid": "65d0b36947d9561bb0c04a2e"
+  },
+  "datum": {
+    "$date": "2024-02-22T09:00:00.000Z"
+  },
+  "nastavnik": "drazen",
+  "ucenik": "marijaz",
+  "status": "P",
+  "predmet": "Programiranja",
+  "procitano": 0
+},
+{
+  "_id": {
+    "$oid": "65d0b36a47d9561bb0c04a35"
+  },
+  "datum": {
+    "$date": "2024-02-22T12:00:00.000Z"
+  },
+  "nastavnik": "drazen",
+  "ucenik": "marijaz",
+  "status": "P",
+  "predmet": "Programiranja",
+  "procitano": 0
+},
+{
+  "_id": {
+    "$oid": "65d0b36c47d9561bb0c04a3c"
+  },
+  "datum": {
+    "$date": "2024-02-20T14:30:00.000Z"
+  },
+  "nastavnik": "drazen",
+  "ucenik": "marijaz",
+  "status": "P",
+  "predmet": "Informatika",
+  "procitano": 0
+},
+{
+  "_id": {
+    "$oid": "65d0b36e47d9561bb0c04a43"
+  },
+  "datum": {
+    "$date": "2024-02-21T09:00:00.000Z"
+  },
+  "nastavnik": "drazen",
+  "ucenik": "stefan",
+  "status": "P",
+  "predmet": "Engleski jezik",
+  "procitano": 0
+},
+{
+  "_id": {
+    "$oid": "65d0b36f47d9561bb0c04a4a"
+  },
+  "datum": {
+    "$date": "2024-02-28T11:29:00.000Z"
+  },
+  "nastavnik": "drazen",
+  "ucenik": "lidijac",
+  "status": "P",
+  "predmet": "Engleski jezik",
+  "procitano": 0
+},
+{
+  "_id": {
+    "$oid": "65d0b37147d9561bb0c04a51"
+  },
+  "datum": {
+    "$date": "2024-02-27T10:00:00.000Z"
+  },
+  "nastavnik": "drazen",
+  "ucenik": "milicac",
+  "status": "P",
+  "predmet": "Matematika",
+  "procitano": 0
+}]

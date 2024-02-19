@@ -1,0 +1,23 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Moj najdraži nastavnik</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation" (click)="isCollapsed = !isCollapsed">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor03" [ngbCollapse]="isCollapsed">
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="/" routerLinkActive="active">Početna</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" routerLink="/login-public" routerLinkActive="active">Login</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" routerLink="/registration-student" routerLinkActive="active">Registruj se kao učenik</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" routerLink="/registration-teacher-first-step" routerLinkActive="active">Registruj se kao nastavnik</a>
+      </li>
+    </ul>
+  </div>
+</nav>

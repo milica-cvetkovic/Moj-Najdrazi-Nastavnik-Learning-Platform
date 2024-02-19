@@ -1,0 +1,14 @@
+<mat-dialog-content>
+    <p>Unesi izmenjen tip škole</p>
+    <mat-form-field>
+      <mat-label>Tip škole</mat-label>
+      <mat-select [(ngModel)]="data.tip_skole">
+        <mat-option value="" [value]="u" *ngFor="let u of data.tipovi">{{u}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </mat-dialog-content>
+  <mat-dialog-actions>
+    <button mat-button (click)="ponistiTip()">Poništi</button>
+    <button mat-button [mat-dialog-close]="data.tip_skole" cdkFocusInitial>Izmeni</button>
+  </mat-dialog-actions>
+  

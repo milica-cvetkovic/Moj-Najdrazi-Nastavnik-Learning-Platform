@@ -1,0 +1,13 @@
+<mat-dialog-content>
+    <p>Izaberi uzrast</p>
+    <mat-form-field>
+        <mat-label>Uzrast</mat-label>
+        <mat-select [(ngModel)]="data.uzrast">
+          <mat-option value="" [value]="u" *ngFor="let u of uzrasti">{{u}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+  </mat-dialog-content>
+  <mat-dialog-actions>
+    <button mat-button (click)="ponistiUzrast()">Poništi</button>
+    <button mat-button [mat-dialog-close]="data.uzrast" cdkFocusInitial>Izmeni</button>
+  </mat-dialog-actions>

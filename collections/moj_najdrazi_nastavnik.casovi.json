@@ -1,0 +1,852 @@
+[{
+  "_id": {
+    "$oid": "65d07d69119c4a1f158a23c2"
+  },
+  "nastavnik": "drazen",
+  "ucenik": "milicac",
+  "predmet": "Programiranja",
+  "datum": {
+    "$date": "2024-02-21T12:30:00.000Z"
+  },
+  "opis": "OOP, Java",
+  "dupli_cas": 1,
+  "status": "P"
+},
+{
+  "_id": {
+    "$oid": "65d07d97119c4a1f158a23cc"
+  },
+  "nastavnik": "drazen",
+  "ucenik": "milicac",
+  "predmet": "Informatika",
+  "datum": {
+    "$date": "2024-02-20T13:00:00.000Z"
+  },
+  "opis": "Baze podataka",
+  "dupli_cas": 0,
+  "status": "P"
+},
+{
+  "_id": {
+    "$oid": "65d07db0119c4a1f158a23d3"
+  },
+  "nastavnik": "drazen",
+  "ucenik": "milicac",
+  "predmet": "Matematika",
+  "datum": {
+    "$date": "2024-02-27T10:00:00.000Z"
+  },
+  "opis": "Sin cos tan",
+  "dupli_cas": 0,
+  "status": "P"
+},
+{
+  "_id": {
+    "$oid": "65d07de1119c4a1f158a23e6"
+  },
+  "nastavnik": "drazen",
+  "ucenik": "lidijac",
+  "predmet": "Engleski jezik",
+  "datum": {
+    "$date": "2024-02-28T11:29:00.000Z"
+  },
+  "opis": "Past simple",
+  "dupli_cas": 1,
+  "status": "P"
+},
+{
+  "_id": {
+    "$oid": "65d07df5119c4a1f158a23ee"
+  },
+  "nastavnik": "jelicac",
+  "ucenik": "lidijac",
+  "predmet": "Informatika",
+  "datum": {
+    "$date": "2024-02-21T09:35:00.000Z"
+  },
+  "opis": "Osnove informatike",
+  "dupli_cas": 1,
+  "status": "Z"
+},
+{
+  "_id": {
+    "$oid": "65d07e13119c4a1f158a23f6"
+  },
+  "nastavnik": "tasha",
+  "ucenik": "lidijac",
+  "predmet": "Hemija",
+  "datum": {
+    "$date": "2024-02-28T11:30:00.000Z"
+  },
+  "opis": "Kovalentne veze",
+  "dupli_cas": 0,
+  "status": "P"
+},
+{
+  "_id": {
+    "$oid": "65d07e30119c4a1f158a2400"
+  },
+  "nastavnik": "maja",
+  "ucenik": "lidijac",
+  "predmet": "Fizika",
+  "datum": {
+    "$date": "2024-02-22T09:00:00.000Z"
+  },
+  "opis": "Brzina i ubrzanje",
+  "dupli_cas": 0,
+  "status": "Z"
+},
+{
+  "_id": {
+    "$oid": "65d07e50119c4a1f158a2411"
+  },
+  "nastavnik": "dragan",
+  "ucenik": "lukac",
+  "predmet": "Fizika",
+  "datum": {
+    "$date": "2024-02-27T09:37:00.000Z"
+  },
+  "opis": "Alfa čestice",
+  "dupli_cas": 1,
+  "status": "Z"
+},
+{
+  "_id": {
+    "$oid": "65d07e63119c4a1f158a2419"
+  },
+  "nastavnik": "aki",
+  "ucenik": "lukac",
+  "predmet": "Italijanski jezik",
+  "datum": {
+    "$date": "2024-02-26T09:37:00.000Z"
+  },
+  "opis": "Osnove jezika",
+  "dupli_cas": 0,
+  "status": "Z"
+},
+{
+  "_id": {
+    "$oid": "65d07e96119c4a1f158a242a"
+  },
+  "nastavnik": "sanjar",
+  "ucenik": "milicac",
+  "predmet": "Programiranja",
+  "datum": {
+    "$date": "2024-02-22T14:30:00.000Z"
+  },
+  "opis": "Mongodb",
+  "dupli_cas": 1,
+  "status": "Z"
+},
+{
+  "_id": {
+    "$oid": "65d07eb8119c4a1f158a2432"
+  },
+  "nastavnik": "jelicac",
+  "ucenik": "milicac",
+  "predmet": "Programiranja",
+  "datum": {
+    "$date": "2024-02-28T12:00:00.000Z"
+  },
+  "opis": "RESTful",
+  "dupli_cas": 1,
+  "status": "Z"
+},
+{
+  "_id": {
+    "$oid": "65d07ecf119c4a1f158a2438"
+  },
+  "nastavnik": "jelicac",
+  "ucenik": "milicac",
+  "predmet": "Matematika",
+  "datum": {
+    "$date": "2024-03-01T10:00:00.000Z"
+  },
+  "opis": "Integrali",
+  "dupli_cas": 1,
+  "status": "Z"
+},
+{
+  "_id": {
+    "$oid": "65d080253fd4fe0b90d6280a"
+  },
+  "nastavnik": "drazen",
+  "ucenik": "milicac",
+  "predmet": "Programiranja",
+  "datum": {
+    "$date": "2024-01-21T12:30:00.000Z"
+  },
+  "opis": "C/C++",
+  "dupli_cas": 1,
+  "status": "P",
+  "komentarUcenik": "Dobar čas",
+  "ocenaUcenik": 5,
+  "komentarNastavnik": "Ponoviti sql",
+  "ocenaNastavnik": 5
+},
+{
+  "_id": {
+    "$oid": "65d0803e3fd4fe0b90d6280b"
+  },
+  "nastavnik": "drazen",
+  "ucenik": "milicac",
+  "predmet": "Informatika",
+  "datum": {
+    "$date": "2024-01-19T12:30:00.000Z"
+  },
+  "opis": "Photoshop",
+  "dupli_cas": 0,
+  "status": "P",
+  "komentarUcenik": "Odlično",
+  "ocenaUcenik": 4,
+  "komentarNastavnik": "Springboot",
+  "ocenaNastavnik": 4
+},
+{
+  "_id": {
+    "$oid": "65d080593fd4fe0b90d6280c"
+  },
+  "nastavnik": "drazen",
+  "ucenik": "milicac",
+  "predmet": "Programiranja",
+  "datum": {
+    "$date": "2024-01-15T11:30:00.000Z"
+  },
+  "opis": "Angular",
+  "dupli_cas": 1,
+  "status": "P",
+  "komentarUcenik": "Detaljno",
+  "ocenaUcenik": 3,
+  "komentarNastavnik": "Obnoviti mysql",
+  "ocenaNastavnik": 4
+},
+{
+  "_id": {
+    "$oid": "65d081773fd4fe0b90d6280d"
+  },
+  "nastavnik": "drazen",
+  "ucenik": "milicac",
+  "predmet": "Informatika",
+  "datum": {
+    "$date": "2024-01-25T10:30:00.000Z"
+  },
+  "opis": "Vue.js",
+  "dupli_cas": 1,
+  "status": "P",
+  "komentarUcenik": "Super",
+  "ocenaUcenik": 5
+},
+{
+  "_id": {
+    "$oid": "65d084383fd4fe0b90d62815"
+  },
+  "nastavnik": "drazen",
+  "ucenik": "milicac",
+  "predmet": "Programiranja",
+  "datum": {
+    "$date": "2023-06-21T12:30:00.000Z"
+  },
+  "opis": "Machine learning",
+  "dupli_cas": 0,
+  "status": "P"
+},
+{
+  "_id": {
+    "$oid": "65d0844a3fd4fe0b90d62816"
+  },
+  "nastavnik": "sanjar",
+  "ucenik": "lidijac",
+  "predmet": "Matematika",
+  "datum": {
+    "$date": "2023-08-08T13:00:00.000Z"
+  },
+  "opis": "Stepenovanje",
+  "dupli_cas": 0,
+  "status": "O"
+},
+{
+  "_id": {
+    "$oid": "65d084583fd4fe0b90d62817"
+  },
+  "nastavnik": "jelicac",
+  "ucenik": "milicac",
+  "predmet": "Matematika",
+  "datum": {
+    "$date": "2023-03-29T12:00:00.000Z"
+  },
+  "opis": "Izvodi",
+  "dupli_cas": 1,
+  "status": "P"
+},
+{
+  "_id": {
+    "$oid": "65d084623fd4fe0b90d62818"
+  },
+  "nastavnik": "drazen",
+  "ucenik": "milicac",
+  "predmet": "Programiranja",
+  "datum": {
+    "$date": "2023-01-04T10:00:00.000Z"
+  },
+  "opis": "Javascript",
+  "dupli_cas": 1,
+  "status": "P"
+},
+{
+  "_id": {
+    "$oid": "65d0846b3fd4fe0b90d62819"
+  },
+  "nastavnik": "tasha",
+  "ucenik": "lukac",
+  "predmet": "Hemija",
+  "datum": {
+    "$date": "2023-10-19T10:30:00.000Z"
+  },
+  "opis": "Jonske veze",
+  "dupli_cas": 0,
+  "status": "O"
+},
+{
+  "_id": {
+    "$oid": "65d084753fd4fe0b90d6281a"
+  },
+  "nastavnik": "tasha",
+  "ucenik": "lidijac",
+  "predmet": "Fizika",
+  "datum": {
+    "$date": "2023-09-11T13:30:00.000Z"
+  },
+  "opis": "Potisak",
+  "dupli_cas": 0,
+  "status": "P",
+  "komentarNastavnik": "Centrifugalna sila",
+  "ocenaNastavnik": 5,
+  "komentarUcenik": "Dobro predavanje",
+  "ocenaUcenik": 4
+},
+{
+  "_id": {
+    "$oid": "65d084993fd4fe0b90d6281d"
+  },
+  "nastavnik": "aki",
+  "ucenik": "lukac",
+  "predmet": "Nemački jezik",
+  "datum": {
+    "$date": "2023-05-26T11:00:00.000Z"
+  },
+  "opis": "Osnove jezika",
+  "dupli_cas": 0,
+  "status": "O"
+},
+{
+  "_id": {
+    "$oid": "65d084a33fd4fe0b90d6281e"
+  },
+  "nastavnik": "maja",
+  "ucenik": "lukac",
+  "predmet": "Informatika",
+  "datum": {
+    "$date": "2023-12-30T14:00:00.000Z"
+  },
+  "opis": "Algoritmi",
+  "dupli_cas": 1,
+  "status": "P",
+  "komentarUcenik": "Odličan profesor",
+  "ocenaUcenik": 5
+},
+{
+  "_id": {
+    "$oid": "65d084b23fd4fe0b90d6281f"
+  },
+  "nastavnik": "jelicac",
+  "ucenik": "anja",
+  "predmet": "Programiranja",
+  "datum": {
+    "$date": "2023-06-07T12:00:00.000Z"
+  },
+  "opis": "SQL",
+  "dupli_cas": 1,
+  "status": "P"
+},
+{
+  "_id": {
+    "$oid": "65d084883fd4fe0b90d6281b"
+  },
+  "nastavnik": "maja",
+  "ucenik": "zeljko",
+  "predmet": "Fizika",
+  "datum": {
+    "$date": "2023-02-24T15:00:00.000Z"
+  },
+  "opis": "Centripetalna sila",
+  "dupli_cas": 1,
+  "status": "O"
+},
+{
+  "_id": {
+    "$oid": "65d084903fd4fe0b90d6281c"
+  },
+  "nastavnik": "bosko",
+  "ucenik": "lukac",
+  "predmet": "Filozofija",
+  "datum": {
+    "$date": "2023-11-20T14:30:00.000Z"
+  },
+  "opis": "Arhimed",
+  "dupli_cas": 1,
+  "status": "P",
+  "komentarUcenik": "Nije mi se dopala oblast",
+  "ocenaUcenik": 2
+},
+{
+  "_id": {
+    "$oid": "65d084c13fd4fe0b90d62820"
+  },
+  "nastavnik": "jelicac",
+  "ucenik": "lukac",
+  "predmet": "Matematika",
+  "datum": {
+    "$date": "2023-03-02T15:00:00.000Z"
+  },
+  "opis": "Trigonometrija",
+  "dupli_cas": 0,
+  "status": "P",
+  "komentarUcenik": "Odlično",
+  "ocenaUcenik": 4
+},
+{
+  "_id": {
+    "$oid": "65d084f43fd4fe0b90d62824"
+  },
+  "nastavnik": "maki",
+  "ucenik": "anja",
+  "predmet": "Istorija",
+  "datum": {
+    "$date": "2023-05-06T13:30:00.000Z"
+  },
+  "opis": "Prvi svetski rat",
+  "dupli_cas": 1,
+  "status": "P",
+  "komentarNastavnik": "Finalni test",
+  "ocenaNastavnik": 4
+},
+{
+  "_id": {
+    "$oid": "65d084fe3fd4fe0b90d62825"
+  },
+  "nastavnik": "jelicap",
+  "ucenik": "milicab",
+  "predmet": "Biologija",
+  "datum": {
+    "$date": "2023-01-14T10:30:00.000Z"
+  },
+  "opis": "Genetika",
+  "dupli_cas": 1,
+  "status": "P",
+  "komentarNastavnik": "DNK",
+  "ocenaNastavnik": 2,
+  "komentarUcenik": "Nejasan RNK",
+  "ocenaUcenik": 2
+},
+{
+  "_id": {
+    "$oid": "65d0851c3fd4fe0b90d62826"
+  },
+  "nastavnik": "jelicap",
+  "ucenik": "milicab",
+  "predmet": "Biologija",
+  "datum": {
+    "$date": "2024-02-16T10:30:00.000Z"
+  },
+  "opis": "Fotosinteza",
+  "dupli_cas": 1,
+  "status": "P",
+  "komentarNastavnik": "Sunđeri",
+  "ocenaNastavnik": 4,
+  "komentarUcenik": "Može bolje",
+  "ocenaUcenik": 3
+},
+{
+  "_id": {
+    "$oid": "65d085373fd4fe0b90d62827"
+  },
+  "nastavnik": "aki",
+  "ucenik": "lukac",
+  "predmet": "Nemački jezik",
+  "datum": {
+    "$date": "2024-02-15T10:30:00.000Z"
+  },
+  "opis": "Prošlo vreme",
+  "dupli_cas": 0,
+  "status": "P",
+  "komentarNastavnik": "Preterit",
+  "ocenaNastavnik": 4
+},
+{
+  "_id": {
+    "$oid": "65d085583fd4fe0b90d62828"
+  },
+  "nastavnik": "sanjar",
+  "ucenik": "lidijac",
+  "predmet": "Informatika",
+  "datum": {
+    "$date": "2024-02-15T11:30:00.000Z"
+  },
+  "opis": "Word",
+  "dupli_cas": 0,
+  "status": "P",
+  "komentarUcenik": "Dobro za početak",
+  "ocenaUcenik": 4
+},
+{
+  "_id": {
+    "$oid": "65d084ea3fd4fe0b90d62823"
+  },
+  "nastavnik": "ogrizovic",
+  "ucenik": "stefan",
+  "predmet": "Informatika",
+  "datum": {
+    "$date": "2023-01-17T11:30:00.000Z"
+  },
+  "opis": "Excel",
+  "dupli_cas": 0,
+  "status": "P"
+},
+{
+  "_id": {
+    "$oid": "65d088520973af736f104e1e"
+  },
+  "nastavnik": "maki",
+  "ucenik": "lukac",
+  "predmet": "Istorija",
+  "datum": {
+    "$date": "2024-02-20T10:19:00.000Z"
+  },
+  "opis": "Drugi svetski rat",
+  "dupli_cas": 1,
+  "status": "Z"
+},
+{
+  "_id": {
+    "$oid": "65d088880973af736f104e30"
+  },
+  "nastavnik": "drazen",
+  "ucenik": "milicac",
+  "predmet": "Filozofija",
+  "datum": {
+    "$date": "2024-02-20T10:00:00.000Z"
+  },
+  "opis": "Aristotel",
+  "dupli_cas": 0,
+  "status": "P"
+},
+{
+  "_id": {
+    "$oid": "65d0889f0973af736f104e37"
+  },
+  "nastavnik": "drazen",
+  "ucenik": "milicac",
+  "predmet": "Engleski jezik",
+  "datum": {
+    "$date": "2024-02-22T11:00:00.000Z"
+  },
+  "opis": "Conditionals",
+  "dupli_cas": 0,
+  "status": "P"
+},
+{
+  "_id": {
+    "$oid": "65d08a083fd4fe0b90d62842"
+  },
+  "nastavnik": "drazen",
+  "ucenik": "lukac",
+  "predmet": "Programiranja",
+  "datum": {
+    "$date": "2024-02-10T13:00:00.000Z"
+  },
+  "opis": "Python",
+  "dupli_cas": 1,
+  "status": "P",
+  "komentarNastavnik": "Spremiti html css",
+  "ocenaNastavnik": 5
+},
+{
+  "_id": {
+    "$oid": "65d08b350973af736f104ee6"
+  },
+  "nastavnik": "bosko",
+  "ucenik": "lukac",
+  "predmet": "Matematika",
+  "datum": {
+    "$date": "2024-03-05T10:32:00.000Z"
+  },
+  "opis": "Funkcije",
+  "dupli_cas": 0,
+  "status": "Z"
+},
+{
+  "_id": {
+    "$oid": "65d08bc53fd4fe0b90d62845"
+  },
+  "nastavnik": "dragan",
+  "ucenik": "milicab",
+  "predmet": "Fizika",
+  "datum": {
+    "$date": "2024-02-15T12:00:00.000Z"
+  },
+  "opis": "Osnove baza podataka",
+  "dupli_cas": 1,
+  "status": "P",
+  "komentarUcenik": "Teško",
+  "ocenaUcenik": 3
+},
+{
+  "_id": {
+    "$oid": "65d0af0547d9561bb0c04905"
+  },
+  "nastavnik": "aki",
+  "ucenik": "milicab",
+  "predmet": "Francuski jezik",
+  "datum": {
+    "$date": "2024-03-07T13:00:00.000Z"
+  },
+  "opis": "Buduće vreme",
+  "dupli_cas": 1,
+  "status": "Z"
+},
+{
+  "_id": {
+    "$oid": "65d0af2c3fd4fe0b90d6284a"
+  },
+  "nastavnik": "aki",
+  "ucenik": "milicab",
+  "predmet": "Nemački jezik",
+  "datum": {
+    "$date": "2023-04-07T12:00:00.000Z"
+  },
+  "opis": "Kondicionali",
+  "dupli_cas": 1,
+  "status": "P",
+  "komentarUcenik": "Nejasan",
+  "ocenaUcenik": 2,
+  "komentarNastavnik": "Dobro je",
+  "ocenaNastavnik": 5
+},
+{
+  "_id": {
+    "$oid": "65d0af583fd4fe0b90d6284b"
+  },
+  "nastavnik": "aki",
+  "ucenik": "milicab",
+  "predmet": "Italijanski jezik",
+  "datum": {
+    "$date": "2023-11-13T14:00:00.000Z"
+  },
+  "opis": "Kondicionali",
+  "dupli_cas": 0,
+  "status": "P",
+  "komentarUcenik": "Super",
+  "ocenaUcenik": 4
+},
+{
+  "_id": {
+    "$oid": "65d0af993fd4fe0b90d6284d"
+  },
+  "nastavnik": "jelicap",
+  "ucenik": "stefan",
+  "predmet": "Biologija",
+  "datum": {
+    "$date": "2023-05-16T11:30:00.000Z"
+  },
+  "opis": "Dupljari",
+  "dupli_cas": 1,
+  "status": "P",
+  "komentarNastavnik": "Odlično",
+  "ocenaNastavnik": 5
+},
+{
+  "_id": {
+    "$oid": "65d0afd73fd4fe0b90d62850"
+  },
+  "nastavnik": "maki",
+  "ucenik": "marijaz",
+  "predmet": "Istorija",
+  "datum": {
+    "$date": "2023-05-07T14:30:00.000Z"
+  },
+  "opis": "Dinastija Tjudor",
+  "dupli_cas": 1,
+  "status": "P",
+  "komentarUcenik": "Odlično",
+  "ocenaUcenik": 5,
+  "komentarNastavnik": "Ne valja",
+  "ocenaNastavnik": 2
+},
+{
+  "_id": {
+    "$oid": "65d0b1a547d9561bb0c04972"
+  },
+  "nastavnik": "drazen",
+  "ucenik": "stefan",
+  "predmet": "Engleski jezik",
+  "datum": {
+    "$date": "2024-02-21T09:00:00.000Z"
+  },
+  "opis": "Present Simple",
+  "dupli_cas": 1,
+  "status": "P"
+},
+{
+  "_id": {
+    "$oid": "65d0b1fa47d9561bb0c0499b"
+  },
+  "nastavnik": "drazen",
+  "ucenik": "marijaz",
+  "predmet": "Informatika",
+  "datum": {
+    "$date": "2024-02-20T14:30:00.000Z"
+  },
+  "opis": "Docker",
+  "dupli_cas": 0,
+  "status": "P"
+},
+{
+  "_id": {
+    "$oid": "65d0b25a47d9561bb0c049b8"
+  },
+  "nastavnik": "drazen",
+  "ucenik": "marijaz",
+  "predmet": "Programiranja",
+  "datum": {
+    "$date": "2024-02-22T12:00:00.000Z"
+  },
+  "opis": "MS SQL",
+  "dupli_cas": 0,
+  "status": "P"
+},
+{
+  "_id": {
+    "$oid": "65d0b28a47d9561bb0c049c1"
+  },
+  "nastavnik": "drazen",
+  "ucenik": "marijaz",
+  "predmet": "Programiranja",
+  "datum": {
+    "$date": "2024-02-22T09:00:00.000Z"
+  },
+  "opis": "OOP",
+  "dupli_cas": 0,
+  "status": "P"
+},
+{
+  "_id": {
+    "$oid": "65d0b2cd47d9561bb0c049d4"
+  },
+  "nastavnik": "drazen",
+  "ucenik": "anja",
+  "predmet": "Engleski jezik",
+  "datum": {
+    "$date": "2024-02-22T14:00:00.000Z"
+  },
+  "opis": "Future Simple",
+  "dupli_cas": 0,
+  "status": "P"
+},
+{
+  "_id": {
+    "$oid": "65d0b2ed47d9561bb0c049db"
+  },
+  "nastavnik": "drazen",
+  "ucenik": "anja",
+  "predmet": "Filozofija",
+  "datum": {
+    "$date": "2024-02-23T12:00:00.000Z"
+  },
+  "opis": "Grčka filozofija",
+  "dupli_cas": 0,
+  "status": "P"
+},
+{
+  "_id": {
+    "$oid": "65d0b31947d9561bb0c049ee"
+  },
+  "nastavnik": "drazen",
+  "ucenik": "zeljko",
+  "predmet": "Informatika",
+  "datum": {
+    "$date": "2024-02-23T13:00:00.000Z"
+  },
+  "opis": "Power point",
+  "dupli_cas": 0,
+  "status": "P"
+},
+{
+  "_id": {
+    "$oid": "65d0b32d47d9561bb0c049f5"
+  },
+  "nastavnik": "drazen",
+  "ucenik": "zeljko",
+  "predmet": "Engleski jezik",
+  "datum": {
+    "$date": "2024-02-21T15:00:00.000Z"
+  },
+  "opis": "Reading",
+  "dupli_cas": 0,
+  "status": "P"
+},
+{
+  "_id": {
+    "$oid": "65d0b39047d9561bb0c04a66"
+  },
+  "nastavnik": "drazen",
+  "ucenik": "milicac",
+  "predmet": "Programiranja",
+  "datum": {
+    "$date": "2024-02-27T12:00:00.000Z"
+  },
+  "opis": "Python osnove",
+  "dupli_cas": 0,
+  "status": "Z"
+},
+{
+  "_id": {
+    "$oid": "65d0b3a347d9561bb0c04a6d"
+  },
+  "nastavnik": "drazen",
+  "ucenik": "milicac",
+  "predmet": "Matematika",
+  "datum": {
+    "$date": "2024-03-04T10:00:00.000Z"
+  },
+  "opis": "Grafici",
+  "dupli_cas": 0,
+  "status": "Z"
+},
+{
+  "_id": {
+    "$oid": "65d0b3bc47d9561bb0c04a80"
+  },
+  "nastavnik": "drazen",
+  "ucenik": "lukac",
+  "predmet": "Engleski jezik",
+  "datum": {
+    "$date": "2024-03-05T11:30:00.000Z"
+  },
+  "opis": "Past Perfect",
+  "dupli_cas": 0,
+  "status": "Z"
+},
+{
+  "_id": {
+    "$oid": "65d0b3d647d9561bb0c04a88"
+  },
+  "nastavnik": "drazen",
+  "ucenik": "lukac",
+  "predmet": "Matematika",
+  "datum": {
+    "$date": "2024-03-13T14:30:00.000Z"
+  },
+  "opis": "Razlomci",
+  "dupli_cas": 1,
+  "status": "Z"
+}]

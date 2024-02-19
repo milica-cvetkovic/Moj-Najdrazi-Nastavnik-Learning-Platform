@@ -1,0 +1,24 @@
+https://mdbootstrap.com/docs/standard/extended/login/
+https://mdbootstrap.com/docs/standard/extended/registration/
+https://stackblitz.com/edit/angular-navbar-menu-bootstrap?file=src%2Fapp%2Fapp.component.html
+https://material.angular.io/components/dialog/overview
+https://mdbootstrap.com/docs/standard/extended/profiles/
+https://www.npmjs.com/package/multer?activeTab=readme
+https://ng-bootstrap.github.io/#/components/carousel/examples
+https://stackblitz.com/edit/demo-ngx-mat-datetime-picker-jkbrq4?file=src%2Fapp%2Fapp.component.ts
+https://www.npmjs.com/package/@fullcalendar/angular
+https://jitsi.github.io/handbook/docs/dev-guide/dev-guide-iframe/
+https://www.ultimateakash.com/blog-details/IiwzYGAKYAo=/How-to-Integrate-Jitsi-meet-in-Angular-2021-(External-API,-IFrame-API)
+https://canvasjs.com/angular-charts/
+
+npm i @types/multer --save-dev
+ng add @angular/material
+ng add @ng-bootstrap/ng-bootstrap
+npm install --save @fullcalendar/angular @fullcalendar/core @fullcalendar/daygrid @fullcalendar/interaction @fullcalendar/timegrid
+--legacy-peer-deps
+npm install canvasjs
+npm install @canvasjs/angular-charts
+npm install bcrypt
+
+npm install @fullcalendar/core @types/jquery
+npm i --save-dev @types/jquery

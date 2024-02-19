@@ -1,0 +1,12 @@
+<mat-dialog-content>
+  <p>Unesi fotografiju</p>
+ <div>
+  <input type="file" accept="image/*,.jpg,.png" id="profilnaSlika" class="form-control form-control-lg"
+                    (change)="uploadImage($event)" />
+
+ </div>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button (click)="ponisti()">Poništi</button>
+  <button mat-button [mat-dialog-close]="data.profilna" cdkFocusInitial>Izmeni</button>
+</mat-dialog-actions>

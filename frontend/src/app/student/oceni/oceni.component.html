@@ -1,0 +1,16 @@
+<mat-dialog-content>
+    <p>Oceni</p>
+    <mat-form-field style="width: 100%;">
+        <mat-label>Komentar</mat-label>
+        <textarea matInput [(ngModel)]="data.komentar"></textarea>
+    </mat-form-field>
+
+      <mat-label>Ocena</mat-label>
+      <div><ngb-rating [max]="5" [(rate)]="data.ocena" [readonly]="false"></ngb-rating></div>
+
+  </mat-dialog-content>
+  <mat-dialog-actions>
+    <button mat-button (click)="ponisti()">Ponisti</button>
+    <button mat-button [mat-dialog-close]="data" cdkFocusInitial>Unesi</button>
+  </mat-dialog-actions>
+  

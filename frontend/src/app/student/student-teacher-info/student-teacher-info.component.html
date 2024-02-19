@@ -1,0 +1,87 @@
+<app-student-navbar></app-student-navbar>
+<div class="container">
+    <div class="card mb-4">
+        <div class="profile-div">
+            <mat-card class="profile-card">
+                <img mat-card-image [src]="profilna_slika" alt="Profilna slika">
+              </mat-card>
+        </div>
+    
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm-3">
+                    <p class="mb-0">Ime</p>
+                </div>
+                <div class="col-sm-6">
+                    <p class="text-muted mb-0">{{nastavnik.ime}}</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-3">
+                    <p class="mb-0">Prezime</p>
+                </div>
+                <div class="col-sm-6">
+                    <p class="text-muted mb-0">{{nastavnik.prezime}}</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-3">
+                    <p class="mb-0">Email</p>
+                </div>
+                <div class="col-sm-6">
+                    <p class="text-muted mb-0">{{nastavnik.email}}</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-3">
+                    <p class="mb-0">Kontakt telefon</p>
+                </div>
+                <div class="col-sm-6">
+                    <p class="text-muted mb-0">{{nastavnik.kontakt_telefon}}</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-3">
+                    <p class="mb-0">Predmeti</p>
+                </div>
+                <div class="col-sm-6">
+                    <ul>
+                        <li class="text-muted" *ngFor="let p of nastavnik.predmeti"> {{p}}</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <ngb-carousel [showNavigationArrows]="showNavigationArrows"
+                [showNavigationIndicators]="showNavigationIndicators">
+                <ng-template ngbSlide *ngFor="let k of komentari">
+                    <div class="komentar">
+                        <mat-card class="komentar-card">
+                            <mat-card-header>
+                                <mat-card-title>Učenik {{k.ucenikKombinovano.at(0)?.ime}}</mat-card-title>
+                                <mat-card-subtitle>Ocena: {{k.ocenaUcenik}} </mat-card-subtitle>
+                            </mat-card-header>
+                            <mat-card-content>
+                                <p>Komentar: {{k.komentarUcenik}}</p>
+                            </mat-card-content>
+                        </mat-card>
+                    </div>
+                </ng-template>
+            </ngb-carousel>
+        </div>
+    </div>
+    <br>
+    
+    <div>
+        <h2>Zakaži cas</h2>
+        <div class="zakazi">
+            <button mat-raised-button (click)="zakaziPrvi()">Prvi način</button>
+            <button mat-raised-button (click)="zakaziDrugi()">Drugi način</button>
+          </div>
+    </div>
+    
+    
+</div>

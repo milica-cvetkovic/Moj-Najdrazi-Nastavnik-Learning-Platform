@@ -1,0 +1,12 @@
+<mat-dialog-content>
+    <p>Unesi izmenjeno ime</p>
+    <mat-form-field>
+      <mat-label>Ime</mat-label>
+      <input matInput [(ngModel)]="data.ime">
+    </mat-form-field>
+  </mat-dialog-content>
+  <mat-dialog-actions>
+    <button mat-button (click)="ponistiIme()">Ponisti</button>
+    <button mat-button [mat-dialog-close]="data.ime" cdkFocusInitial>Izmeni</button>
+  </mat-dialog-actions>
+  

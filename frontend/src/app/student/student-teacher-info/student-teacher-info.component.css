@@ -1,0 +1,35 @@
+.profile-card {
+    max-width: 400px;
+  }
+  
+.profile-header-image {
+  background-size: cover;
+}
+
+.profile-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.zakazi{
+  display: table-cell;
+  max-width: 600px;
+}
+
+.container{
+  margin-top: 50px;
+  min-height: 100vh;
+}
+
+button {
+  margin-left: 10px;
+}
+
+p{
+  color: rgb(126, 124, 124);
+}

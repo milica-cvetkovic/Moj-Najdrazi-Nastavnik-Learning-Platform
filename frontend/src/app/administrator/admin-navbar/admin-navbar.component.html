@@ -1,0 +1,29 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#" routerLink="/admin-home" routerLinkActive="active">Moj najdraži nastavnik</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation" (click)="isCollapsed = !isCollapsed">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarColor03" [ngbCollapse]="isCollapsed">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item active">
+          <a class="nav-link" routerLink="/admin-home" routerLinkActive="active">Početna</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" routerLink="/admin-teachers" routerLinkActive="active">Nastavnici</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" routerLink="/admin-students" routerLinkActive="active">Učenici</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" routerLink="/admin-requests" routerLinkActive="active">Zahtevi za registracijom</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#" routerLink="/admin-subjects" routerLinkActive="active">Predmeti</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" routerLink="/login-private" routerLinkActive="active">Logout</a>
+          </li>
+      </ul>
+    </div>
+  </nav>

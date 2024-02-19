@@ -1,0 +1,23 @@
+<div class="container">
+  <h2>Login administrator</h2>
+    <div class="form-outline mb-4">
+      <input type="text" id="korisnickoIme" class="form-control" [(ngModel)]="korisnickoIme" />
+      <label class="form-label" for="korisnickoIme">Korisničko ime</label>
+    </div>
+
+    <div class="form-outline mb-4">
+      <input type="password" id="lozinka" class="form-control" [(ngModel)]="lozinka"/>
+      <label class="form-label" for="lozinka">Lozinka</label>
+    </div>
+
+    <span class="red">{{greska}}</span>
+
+    <div class="row mb-4">
+      <div class="col">
+        <a href="#"  routerLink="/password-forgotten-admin" routerLinkActive="active">Zaboravili ste lozinku?</a>
+      </div>
+    </div>
+  
+    <button type="button" class="btn btn-secondary btn-block mb-4" (click)="loginAdmin()">Uloguj se</button>
+
+</div>

@@ -1,0 +1,75 @@
+<app-admin-navbar></app-admin-navbar>
+
+<div class="container">
+    <div class="card mb-4">
+        <div class="profile-div">
+        <mat-card class="profile-card">
+            <img mat-card-image [src]="profilna_slika" alt="Profilna slika">
+          </mat-card>
+        </div>
+          
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm-6">
+                    <p class="mb-0">Ime</p>
+                </div>
+                <div class="col-sm-6">
+                    <p class="text-muted mb-0">{{ucenik.ime}}</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-6">
+                    <p class="mb-0">Prezime</p>
+                </div>
+                <div class="col-sm-6">
+                    <p class="text-muted mb-0">{{ucenik.prezime}}</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-6">
+                    <p class="mb-0">Adresa</p>
+                </div>
+                <div class="col-sm-6">
+                    <p class="text-muted mb-0">{{ucenik.adresa}}</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-6">
+                    <p class="mb-0">Email</p>
+                </div>
+                <div class="col-sm-6">
+                    <p class="text-muted mb-0">{{ucenik.email}}</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-6">
+                    <p class="mb-0">Kontakt telefon</p>
+                </div>
+                <div class="col-sm-6">
+                    <p class="text-muted mb-0">{{ucenik.kontakt_telefon}}</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-6">
+                    <p class="mb-0">Tip škole</p>
+                </div>
+                <div class="col-sm-6">
+                    <p class="text-muted mb-0">{{ucenik.tip_skole}}</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-6">
+                    <p class="mb-0">Trenutni razred</p>
+                </div>
+                <div class="col-sm-6">
+                    <p class="text-muted mb-0">{{ucenik.trenutni_razred}}</p>
+                </div>
+            </div>
+        </div>
+</div>

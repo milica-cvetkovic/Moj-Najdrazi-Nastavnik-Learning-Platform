@@ -1,0 +1,26 @@
+ul {
+    list-style-type: none;
+  }
+  
+li {
+  margin-top: 20px;
+}
+
+.profile-card {
+  max-width: 400px;
+}
+
+.profile-header-image {
+background-size: cover;
+}
+
+.profile-div {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.container{
+  margin-top:  50px;
+  min-height: 100vh;
+}

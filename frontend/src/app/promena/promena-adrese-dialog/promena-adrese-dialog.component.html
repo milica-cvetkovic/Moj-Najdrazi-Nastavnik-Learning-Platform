@@ -1,0 +1,12 @@
+<mat-dialog-content>
+    <p>Unesi izmenjenu adresu</p>
+    <mat-form-field>
+      <mat-label>Adresa</mat-label>
+      <input matInput [(ngModel)]="data.adresa">
+    </mat-form-field>
+  </mat-dialog-content>
+  <mat-dialog-actions>
+    <button mat-button (click)="ponistiAdresu()">Poništi</button>
+    <button mat-button [mat-dialog-close]="data.adresa" cdkFocusInitial>Izmeni</button>
+  </mat-dialog-actions>
+  

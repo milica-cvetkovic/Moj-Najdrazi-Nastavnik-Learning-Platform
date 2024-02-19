@@ -1,0 +1,86 @@
+[{
+  "_id": {
+    "$oid": "65d07ca7119c4a1f158a2369"
+  },
+  "datum": {
+    "$date": "2024-02-29T00:00:00.000Z"
+  },
+  "neradan": 1,
+  "korisnicko_ime": "drazen"
+},
+{
+  "_id": {
+    "$oid": "65d07cab119c4a1f158a236f"
+  },
+  "datum": {
+    "$date": "2024-02-26T00:00:00.000Z"
+  },
+  "neradan": 1,
+  "korisnicko_ime": "drazen"
+},
+{
+  "_id": {
+    "$oid": "65d07cba119c4a1f158a2375"
+  },
+  "datum": {
+    "$date": "2024-02-23T00:00:00.000Z"
+  },
+  "vremeOd": "12:30",
+  "vremeDo": "16:30",
+  "neradan": 0,
+  "korisnicko_ime": "drazen"
+},
+{
+  "_id": {
+    "$oid": "65d07ce0119c4a1f158a2387"
+  },
+  "datum": {
+    "$date": "2024-02-22T00:00:00.000Z"
+  },
+  "vremeOd": "11:30",
+  "vremeDo": "16:30",
+  "neradan": 0,
+  "korisnicko_ime": "sanjar"
+},
+{
+  "_id": {
+    "$oid": "65d07ce6119c4a1f158a238d"
+  },
+  "datum": {
+    "$date": "2024-02-23T00:00:00.000Z"
+  },
+  "neradan": 1,
+  "korisnicko_ime": "sanjar"
+},
+{
+  "_id": {
+    "$oid": "65d07cf0119c4a1f158a2393"
+  },
+  "datum": {
+    "$date": "2024-02-28T00:00:00.000Z"
+  },
+  "neradan": 1,
+  "korisnicko_ime": "sanjar"
+},
+{
+  "_id": {
+    "$oid": "65d07d19119c4a1f158a23a5"
+  },
+  "datum": {
+    "$date": "2024-02-22T00:00:00.000Z"
+  },
+  "vremeOd": "12:00",
+  "vremeDo": "15:00",
+  "neradan": 0,
+  "korisnicko_ime": "jelicac"
+},
+{
+  "_id": {
+    "$oid": "65d07d1e119c4a1f158a23ab"
+  },
+  "datum": {
+    "$date": "2024-02-23T00:00:00.000Z"
+  },
+  "neradan": 1,
+  "korisnicko_ime": "jelicac"
+}]

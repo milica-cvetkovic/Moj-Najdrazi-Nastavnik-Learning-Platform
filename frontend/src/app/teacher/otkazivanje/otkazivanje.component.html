@@ -1,0 +1,12 @@
+<mat-dialog-content>
+    <p>Otkazivanje časa</p>
+    <mat-form-field>
+      <mat-label>Obrazloženje</mat-label>
+      <input matInput [(ngModel)]="data.obrazlozenje">
+    </mat-form-field>
+  </mat-dialog-content>
+  <mat-dialog-actions>
+    <button mat-button (click)="ponisti()">Ponisti</button>
+    <button mat-button [mat-dialog-close]="data.obrazlozenje" cdkFocusInitial>Izmeni</button>
+  </mat-dialog-actions>
+  

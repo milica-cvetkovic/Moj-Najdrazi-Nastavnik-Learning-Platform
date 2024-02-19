@@ -1,0 +1,12 @@
+<mat-dialog-content>
+    <p>Unesi izmenjen kontakt telefon</p>
+    <mat-form-field>
+      <mat-label>Kontakt telefon</mat-label>
+      <input matInput [(ngModel)]="data.kontakt_telefon">
+    </mat-form-field>
+  </mat-dialog-content>
+  <mat-dialog-actions>
+    <button mat-button (click)="ponistiTelefon()">Poništi</button>
+    <button mat-button [mat-dialog-close]="data.kontakt_telefon" cdkFocusInitial>Izmeni</button>
+  </mat-dialog-actions>
+  

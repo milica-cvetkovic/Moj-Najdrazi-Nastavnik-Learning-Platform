@@ -1,0 +1,86 @@
+<app-home-navbar></app-home-navbar>
+<div class="container">
+
+    <section class="vh-100 gradient-custom">
+        <div class="container py-5 h-100">
+            <div class="row justify-content-center align-items-center h-100">
+                <div class="col-12 col-lg-9 col-xl-7">
+                    <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
+                        <div class="card-body p-4 p-md-5">
+                            <h2 class="mb-4 pb-2 pb-md-0 mb-md-5">Registracija</h2>
+    
+                            <div class="row">
+                                <h4>Koje predmete želite da podučavate?</h4>
+    
+                                <div *ngFor="let p of predmeti">
+    
+                                    <input type="checkbox" [value]="p.naziv" (change)="promenaPredmeta($event)">
+                                    <label class="form-label select-label">&nbsp;{{p.naziv}}</label>
+                                    <br>
+       
+                                </div>
+    
+                            </div>
+    
+                            <div class="row">
+                                <div class="col-12">
+                                    <input type="text" id="drugo" class="form-control form-control-lg"
+                                        [(ngModel)]="drugo" />
+                                    <label class="form-label select-label" for="drugo">Nešto drugo</label>
+                                    <br><br>
+                                </div>
+    
+                            </div>
+    
+                            <div class="row">
+                                <div class="col-12">
+    
+                                    <h4>Kom uzrastu želite da predajete?</h4>
+                                    <input type="checkbox" [value]="'osnovna1'" (change)="promenaUzrasta($event)">
+                                    <label class="form-label select-label">&nbsp;Osnovna škola 1-4. razreda</label>
+                                    <br>
+                                    <input type="checkbox" [value]="'osnovna2'" (change)="promenaUzrasta($event)">
+                                    <label class="form-label select-label">&nbsp;Osnovna škola 5-8. razred</label>
+                                    <br>
+                                    <input type="checkbox" [value]="'srednja'" (change)="promenaUzrasta($event)">
+                                    <label class="form-label select-label">&nbsp;Srednja škola</label>
+                                    <br><br>
+    
+                                </div>
+                            </div>
+    
+                            <div class="row">
+                                <div class="col-12">
+    
+                                    <h4>Gde ste čuli za naš sajt?</h4>
+                                    <input type="text" id="odgovor" class="form-control form-control-lg"
+                                        [(ngModel)]="nastavnik.sajt" />
+                                    <label class="form-label select-label" for="odgovor">Odgovor</label>
+                                    <br><br>
+                                </div>
+                            </div>
+    
+                            <div class="row">
+                                <div class="col-12">
+    
+                                    <div class="form-outline">
+                                        <input type="file" id="cv" class="form-control form-control-lg"
+                                            (change)="uploadCV($event)" />
+                                        <label class="form-label" for="cv">CV</label>
+                                    </div>
+    
+                                </div>
+                            </div>
+    
+                            <span class="red">{{greska}}</span>
+                            <div class="mt-4 pt-2">
+                                <button class="btn btn-secondary btn-lg" (click)="register()">Registruj se</button>
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

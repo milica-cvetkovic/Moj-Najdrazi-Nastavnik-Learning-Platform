@@ -1,0 +1,110 @@
+<app-teacher-navbar></app-teacher-navbar>
+<div class="container">
+    
+<div class="card mb-4">
+    <div class="profile-div">
+        <mat-card class="profile-card">
+            <img mat-card-image [src]="profilna_slika" alt="Profilna slika">
+            <mat-card-actions>
+              <button mat-button (click)="promeniProfilnu()">Promeni profilnu sliku</button>
+            </mat-card-actions>
+          </mat-card>
+    </div>
+
+    <div class="card-body">
+        <div class="row">
+            <div class="col-sm-3">
+                <p class="mb-0">Ime</p>
+            </div>
+            <div class="col-sm-6">
+                <p class="text-muted mb-0">{{nastavnik.ime}}</p>
+            </div>
+            <div class="col-sm-3 ms-auto">
+                <button mat-raised-button (click)="promeniIme()">Promeni ime</button>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-sm-3">
+                <p class="mb-0">Prezime</p>
+            </div>
+            <div class="col-sm-6">
+                <p class="text-muted mb-0">{{nastavnik.prezime}}</p>
+            </div>
+            <div class="col-sm-3 ms-auto">
+                <button mat-raised-button (click)="promeniPrezime()">Promeni prezime</button>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-sm-3">
+                <p class="mb-0">Adresa</p>
+            </div>
+            <div class="col-sm-6">
+                <p class="text-muted mb-0">{{nastavnik.adresa}}</p>
+            </div>
+            <div class="col-sm-3 ms-auto">
+                <button mat-raised-button (click)="promeniAdresu()">Promeni adresu</button>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-sm-3">
+                <p class="mb-0">Email</p>
+            </div>
+            <div class="col-sm-6">
+                <p class="text-muted mb-0">{{nastavnik.email}}</p>
+            </div>
+            <div class="col-sm-3 ms-auto">
+                <button mat-raised-button (click)="promeniEmail()">Promeni email</button>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-sm-3">
+                <p class="mb-0">Kontakt telefon</p>
+            </div>
+            <div class="col-sm-6">
+                <p class="text-muted mb-0">{{nastavnik.kontakt_telefon}}</p>
+            </div>
+            <div class="col-sm-3 ms-auto">
+                <button mat-raised-button (click)="promeniTelefon()">Promeni telefon</button>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-sm-3">
+                <p class="mb-0">Predmeti</p>
+            </div>
+            <div class="col-sm-6">
+                <ul>
+                    <li class="text-muted" *ngFor="let p of nastavnik.predmeti"> {{p}} &nbsp;
+                        <button mat-raised-button (click)="obrisiPredmet(p)">Obriši</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-3 ms-auto">
+                <button mat-raised-button (click)="dodajPredmet()">Dodaj predmet</button>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-sm-3">
+                <p class="mb-0">Uzrast</p>
+            </div>
+            <div class="col-sm-6">
+                <ul>
+                    <li class="text-muted" *ngFor="let u of uzrastInit"> {{u}} &nbsp;
+                        <button mat-raised-button (click)="obrisiUzrast(u)">Obriši</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-3 ms-auto">
+                <button mat-raised-button (click)="dodajUzrast()">Dodaj uzrast</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</div>

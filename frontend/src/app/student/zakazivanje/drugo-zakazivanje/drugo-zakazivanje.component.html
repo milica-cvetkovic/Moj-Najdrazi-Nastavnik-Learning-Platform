@@ -1,0 +1,29 @@
+<app-student-navbar></app-student-navbar>
+
+<div class="container">
+    <h2>Zakaži čas</h2>
+<div>
+    <full-calendar [options]="kalendar" id="kalendar"></full-calendar>
+</div>
+<br>
+<mat-divider></mat-divider>
+<br>
+<mat-form-field>
+    <mat-label>Izaberi predmet</mat-label>
+    <mat-select [(ngModel)]="predmet">
+        <mat-option *ngFor="let p of nastavnik.predmeti" [value]="p" [disabled]="disabledPredmet==1">{{p}}</mat-option>
+    </mat-select>
+</mat-form-field>
+
+<mat-divider></mat-divider>
+
+<mat-form-field style="width: 100%;">
+    <mat-label>Kratak opis tema</mat-label>
+    <textarea matInput [(ngModel)]="opis"></textarea>
+</mat-form-field>
+
+<mat-divider></mat-divider>
+<br>
+<button mat-raised-button (click)="zakazi()">Zakaži</button>
+
+</div>

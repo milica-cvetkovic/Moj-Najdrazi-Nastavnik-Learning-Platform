@@ -1,0 +1,34 @@
+<app-admin-navbar></app-admin-navbar>
+<div class="container">
+  
+<h2>Predmeti</h2>
+<table mat-table [dataSource]="predmeti" class="mat-elevation-z8">
+
+    <ng-container matColumnDef="rb">
+      <th mat-header-cell *matHeaderCellDef> No. </th>
+      <td mat-cell *matCellDef="let predmet; let i=index"> {{i+1}} </td>
+    </ng-container>
+    
+      <ng-container matColumnDef="predmet">
+        <th mat-header-cell *matHeaderCellDef> Ime </th>
+        <td mat-cell *matCellDef="let predmet"> {{predmet.naziv}}</td>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="kolone"></tr>
+      <tr mat-row *matRowDef="let row; columns: kolone;"></tr>
+</table>  
+
+<mat-divider></mat-divider>
+<br><br>
+
+<div>
+    <h2>Dodaj predmet</h2>
+    <mat-form-field class="example-full-width">
+        <mat-label>Naziv</mat-label>
+        <input matInput [(ngModel)]="predmet">
+    </mat-form-field>
+
+    <button mat-raised-button (click)="unesi()">Unesi</button>
+
+</div>
+</div>

@@ -1,0 +1,98 @@
+<app-student-navbar></app-student-navbar>
+<div class="container">
+    <div class="card mb-4">
+        <div class="profile-div">
+        <mat-card class="profile-card">
+            <img mat-card-image [src]="profilna_slika" alt="Profilna slika">
+            <mat-card-actions>
+              <button mat-button (click)="promeniProfilnu()">Promeni profilnu sliku</button>
+            </mat-card-actions>
+          </mat-card>
+        </div>
+          
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm-3">
+                    <p class="mb-0">Ime</p>
+                </div>
+                <div class="col-sm-6">
+                    <p class="text-muted mb-0">{{ucenik.ime}}</p>
+                </div>
+                <div class="col-sm-3 ms-auto">
+                    <button mat-raised-button (click)="promeniIme()">Promeni ime</button>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-3">
+                    <p class="mb-0">Prezime</p>
+                </div>
+                <div class="col-sm-6">
+                    <p class="text-muted mb-0">{{ucenik.prezime}}</p>
+                </div>
+                <div class="col-sm-3 ms-auto">
+                    <button mat-raised-button (click)="promeniPrezime()">Promeni prezime</button>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-3">
+                    <p class="mb-0">Adresa</p>
+                </div>
+                <div class="col-sm-6">
+                    <p class="text-muted mb-0">{{ucenik.adresa}}</p>
+                </div>
+                <div class="col-sm-3 ms-auto">
+                    <button mat-raised-button (click)="promeniAdresu()">Promeni adresu</button>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-3">
+                    <p class="mb-0">Email</p>
+                </div>
+                <div class="col-sm-6">
+                    <p class="text-muted mb-0">{{ucenik.email}}</p>
+                </div>
+                <div class="col-sm-3 ms-auto">
+                    <button mat-raised-button (click)="promeniEmail()">Promeni email</button>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-3">
+                    <p class="mb-0">Kontakt telefon</p>
+                </div>
+                <div class="col-sm-6">
+                    <p class="text-muted mb-0">{{ucenik.kontakt_telefon}}</p>
+                </div>
+                <div class="col-sm-3 ms-auto">
+                    <button mat-raised-button (click)="promeniTelefon()">Promeni telefon</button>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-3">
+                    <p class="mb-0">Tip škole</p>
+                </div>
+                <div class="col-sm-6">
+                    <p class="text-muted mb-0">{{ucenik.tip_skole}}</p>
+                </div>
+                <div class="col-sm-3 ms-auto">
+                    <button mat-raised-button (click)="promeniTipSkole()">Promeni tip skole</button>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-3">
+                    <p class="mb-0">Trenutni razred</p>
+                </div>
+                <div class="col-sm-6">
+                    <p class="text-muted mb-0">{{ucenik.trenutni_razred}}</p>
+                </div>
+                <div class="col-sm-3 ms-auto">
+                    <button mat-raised-button (click)="promeniRazred()">Promeni razred</button>
+                </div>
+            </div>
+        </div>
+</div>

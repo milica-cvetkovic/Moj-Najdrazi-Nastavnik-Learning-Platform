@@ -1,0 +1,74 @@
+<app-student-navbar></app-student-navbar>
+<div class="container">
+  
+<table mat-table [dataSource]="nastavnici" class="mat-elevation-z8">
+
+  <ng-container matColumnDef="rb">
+    <th mat-header-cell *matHeaderCellDef> No. </th>
+    <td mat-cell *matCellDef="let nastavnik; let i=index"> {{i+1}} </td>
+  </ng-container>
+  
+    <ng-container matColumnDef="ime">
+      <th mat-header-cell *matHeaderCellDef> Ime </th>
+      <td mat-cell *matCellDef="let nastavnik" (click)="nastavnikInfo(nastavnik)"> {{nastavnik.ime}}</td>
+    </ng-container>
+  
+    <ng-container matColumnDef="prezime">
+      <th mat-header-cell *matHeaderCellDef> Prezime </th>
+      <td mat-cell *matCellDef="let nastavnik" (click)="nastavnikInfo(nastavnik)"> {{nastavnik.prezime}} </td>
+    </ng-container>
+  
+    <ng-container matColumnDef="predmeti">
+      <th mat-header-cell *matHeaderCellDef> Predmeti </th>
+      <td mat-cell *matCellDef="let nastavnik">
+        <mat-form-field class="centar">
+          <mat-label>Lista predmeta</mat-label>
+          <mat-select>
+            <mat-option value="" *ngFor="let n of nastavnik.predmeti">
+              {{n}}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="ocena">
+      <th mat-header-cell *matHeaderCellDef> Prosečna ocena </th>
+      <td mat-cell *matCellDef="let nastavnik"> {{nastavnik.zvezdice}} <ngb-rating [max]="5" [(rate)]="nastavnik.zvezdice" [readonly]="true"></ngb-rating></td>
+    </ng-container>
+  
+    <tr mat-header-row *matHeaderRowDef="kolone"></tr>
+    <tr mat-row *matRowDef="let row; columns: kolone;"></tr>
+  </table>  
+
+  <mat-divider></mat-divider>
+  <section>
+    <div class="sorting">
+      <mat-form-field>
+        <mat-label>Sortiraj</mat-label>
+        <mat-select [(ngModel)]="sortValue" (ngModelChange)="sorting($event)">
+          <mat-option [value]="1">Ime rastuće</mat-option>
+          <mat-option [value]="2">Ime opadajuće</mat-option>
+          <mat-option [value]="3">Prezime rastuće</mat-option>
+          <mat-option [value]="4">Prezime opadajuće</mat-option>
+          <mat-option [value]="5">Predmet rastuće</mat-option>
+          <mat-option [value]="6">Predmet opadajuće</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field class="pretraga">
+        <mat-label>Ime za pretragu</mat-label>
+        <input matInput [(ngModel)]="ime">
+      </mat-form-field>
+      <mat-form-field class="pretraga">
+        <mat-label>Prezime za pretragu</mat-label>
+        <input matInput [(ngModel)]="prezime">
+      </mat-form-field>
+      <mat-form-field class="pretraga">
+        <mat-label>Predmet za pretragu</mat-label>
+        <input matInput [(ngModel)]="predmet">
+      </mat-form-field>
+      <button mat-raised-button (click)="pretraga()">Pretraži</button>
+
+    </div>
+  </section>
+</div>

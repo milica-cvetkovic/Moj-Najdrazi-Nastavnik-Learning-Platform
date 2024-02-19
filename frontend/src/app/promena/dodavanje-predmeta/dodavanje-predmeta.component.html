@@ -1,0 +1,11 @@
+<mat-dialog-content>
+    <p>Unesi predmet</p>
+    <mat-form-field>
+      <mat-label>Predmet</mat-label>
+      <input matInput [(ngModel)]="data.predmet">
+    </mat-form-field>
+  </mat-dialog-content>
+  <mat-dialog-actions>
+    <button mat-button (click)="ponistiPredmet()">Poništi</button>
+    <button mat-button [mat-dialog-close]="data.predmet" cdkFocusInitial>Izmeni</button>
+  </mat-dialog-actions>

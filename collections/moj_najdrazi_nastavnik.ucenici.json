@@ -1,0 +1,190 @@
+[{
+  "_id": {
+    "$oid": "65d079a3119c4a1f158a22d4"
+  },
+  "korisnicko_ime": "milicac",
+  "lozinka": "$2b$10$J8ViN9GQGOOqLevJRiwIfOspY9TZp7AhGER1Q87nkRCvJZRIJw8MO",
+  "bezbedonosno_pitanje": "65b23742b0f5688d5f544642",
+  "odgovor": "Micojka",
+  "ime": "Milica",
+  "prezime": "Cvetković",
+  "pol": "Ž",
+  "adresa": "Vojvode Mišića 19",
+  "kontakt_telefon": "060123456",
+  "email": "milica@etf.rs",
+  "profilna_slika": "milicac-profile3.png",
+  "tip_skole": "srednja-gimnazija",
+  "trenutni_razred": 4,
+  "ocene": [
+    5,
+    4,
+    4
+  ]
+},
+{
+  "_id": {
+    "$oid": "65d079de119c4a1f158a22dc"
+  },
+  "korisnicko_ime": "lidijac",
+  "lozinka": "$2b$10$CKX5lRKWbz5Zi/2ORD031uc2LtBA3D1.qpOhCmYSw38JsIwYENnQu",
+  "bezbedonosno_pitanje": "65b23742b0f5688d5f544642",
+  "odgovor": "Liki",
+  "ime": "Lidija",
+  "prezime": "Cvetković",
+  "pol": "Ž",
+  "adresa": "Vojvode Mišića 74",
+  "kontakt_telefon": "061234567",
+  "email": "lidija@etf.rs",
+  "profilna_slika": "lidijac-profile2.png",
+  "tip_skole": "srednja-strucna",
+  "trenutni_razred": 3,
+  "ocene": [
+    5
+  ]
+},
+{
+  "_id": {
+    "$oid": "65d07a14119c4a1f158a22e3"
+  },
+  "korisnicko_ime": "lukac",
+  "lozinka": "$2b$10$Ctag28d4pnMDgnef4dOuHeRY3jWzxhkKX6WbK2kOBbc5VjABrz7Ga",
+  "bezbedonosno_pitanje": "65b23742b0f5688d5f544642",
+  "odgovor": "Luki",
+  "ime": "Luka",
+  "prezime": "Cvetković",
+  "pol": "M",
+  "adresa": "Paje Jovanovića 22",
+  "kontakt_telefon": "060345258",
+  "email": "luka@etf.rs",
+  "profilna_slika": "lukac-profile4.jpg",
+  "tip_skole": "srednja-gimnazija",
+  "trenutni_razred": 1,
+  "ocene": [
+    5,
+    4
+  ]
+},
+{
+  "_id": {
+    "$oid": "65d07a61119c4a1f158a22ea"
+  },
+  "korisnicko_ime": "zeljko",
+  "lozinka": "$2b$10$p6CLPhRNJMtsZFbM7wdk..jAzfRciEzTbQdJEJLlywmBhRmKQQx4O",
+  "bezbedonosno_pitanje": "65d05f8c3fd4fe0b90d627e6",
+  "odgovor": "Suicide squad 2",
+  "ime": "Željko",
+  "prezime": "Urošević",
+  "pol": "M",
+  "adresa": "Bore Petrovića 2",
+  "kontakt_telefon": "060789567",
+  "email": "zeljko@etf.rs",
+  "profilna_slika": "zeljko-profile1.png",
+  "tip_skole": "srednja-strucna",
+  "trenutni_razred": 1,
+  "ocene": []
+},
+{
+  "_id": {
+    "$oid": "65d07a8c119c4a1f158a22f1"
+  },
+  "korisnicko_ime": "anja",
+  "lozinka": "$2b$10$HWN5w5syToDPy0qjN2KjRuDGlihXOPff5bbs4kPlkuZ9yU9t7HVIu",
+  "bezbedonosno_pitanje": "65b23742b0f5688d5f544642",
+  "odgovor": "Anči",
+  "ime": "Anja",
+  "prezime": "Ćurić",
+  "pol": "Ž",
+  "adresa": "Carice Milice 53",
+  "kontakt_telefon": "060785634",
+  "email": "anja@etf.rs",
+  "profilna_slika": "anja-profile2.png",
+  "tip_skole": "osnovna",
+  "trenutni_razred": 8,
+  "ocene": [
+    4
+  ]
+},
+{
+  "_id": {
+    "$oid": "65d07ac0119c4a1f158a22f8"
+  },
+  "korisnicko_ime": "lana",
+  "lozinka": "$2b$10$xR6UqTz4gIMZfucmLxrlGejOThW.2TMm1tOboiG.I0GkGyuW8BNwS",
+  "bezbedonosno_pitanje": "65d05f653fd4fe0b90d627e5",
+  "odgovor": "Marija",
+  "ime": "Lana",
+  "prezime": "Ivković",
+  "pol": "Ž",
+  "adresa": "Marije Bursać 6",
+  "kontakt_telefon": "063224667",
+  "email": "lana@etf.rs",
+  "profilna_slika": "lana-profile2.png",
+  "tip_skole": "srednja-umetnicka",
+  "trenutni_razred": 2,
+  "ocene": []
+},
+{
+  "_id": {
+    "$oid": "65d07b07119c4a1f158a2300"
+  },
+  "korisnicko_ime": "stefan",
+  "lozinka": "$2b$10$WMhaHxJUjpdSy9532A1w3ebjJQROPa53kjX7xOGE0rvnp0oUDWb9C",
+  "bezbedonosno_pitanje": "65b23742b0f5688d5f544642",
+  "odgovor": "Stefke",
+  "ime": "Stefan",
+  "prezime": "Curović",
+  "pol": "M",
+  "adresa": "Tome Živanovića 7",
+  "kontakt_telefon": "062567345",
+  "email": "stefan@etf.rs",
+  "profilna_slika": "stefan-profile4.jpg",
+  "tip_skole": "osnovna",
+  "trenutni_razred": 6,
+  "ocene": [
+    5
+  ]
+},
+{
+  "_id": {
+    "$oid": "65d07b49119c4a1f158a2307"
+  },
+  "korisnicko_ime": "milicab",
+  "lozinka": "$2b$10$cwe/rxA8kYxPe0/Z5aXSOO0cVBYin89WS5YARCAqLqBgN1ZvAx5oi",
+  "bezbedonosno_pitanje": "65b23742b0f5688d5f544642",
+  "odgovor": "Ruža",
+  "ime": "Milica",
+  "prezime": "Branković",
+  "pol": "Ž",
+  "adresa": "Mihajla Pupina 14",
+  "kontakt_telefon": "061234445",
+  "email": "milicab@etf.rs",
+  "profilna_slika": "milicab-profile2.png",
+  "tip_skole": "osnovna",
+  "trenutni_razred": 4,
+  "ocene": [
+    2,
+    4,
+    5
+  ]
+},
+{
+  "_id": {
+    "$oid": "65d07ba5119c4a1f158a230e"
+  },
+  "korisnicko_ime": "marijaz",
+  "lozinka": "$2b$10$j7PFso9U..LjwhDdWuDBV.8.oytOLoEODbl1qB74Y43XdwaxuM3aC",
+  "bezbedonosno_pitanje": "65b23742b0f5688d5f544642",
+  "odgovor": "Maki",
+  "ime": "Marija",
+  "prezime": "Zorić",
+  "pol": "Ž",
+  "adresa": "Carice Milice 1",
+  "kontakt_telefon": "061446688",
+  "email": "marijaz@etf.rs",
+  "profilna_slika": "marijaz-profile3.png",
+  "tip_skole": "srednja-gimnazija",
+  "trenutni_razred": 3,
+  "ocene": [
+    2
+  ]
+}]

@@ -1,0 +1,20 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = __importDefault(require("express"));
+const admin_controller_1 = require("../controllers/admin.controller");
+const adminRouter = express_1.default.Router();
+adminRouter.route("/dohvatiNastavnikePredmete").get((req, res) => new admin_controller_1.AdminController().dohvatiNastavnikePredmete(req, res));
+adminRouter.route("/dohvatiSveUcenike").get((req, res) => new admin_controller_1.AdminController().dohvatiSveUcenike(req, res));
+adminRouter.route("/dohvatiSveNastavnike").get((req, res) => new admin_controller_1.AdminController().dohvatiSveNastavnike(req, res));
+adminRouter.route("/deaktiviraj").get((req, res) => new admin_controller_1.AdminController().deaktiviraj(req, res));
+adminRouter.route("/zahtevi").get((req, res) => new admin_controller_1.AdminController().zahtevi(req, res));
+adminRouter.route("/odobren").get((req, res) => new admin_controller_1.AdminController().odobren(req, res));
+adminRouter.route("/dohvatiSvePredmete").get((req, res) => new admin_controller_1.AdminController().dohvatiSvePredmete(req, res));
+adminRouter.route("/unesiPredmet").get((req, res) => new admin_controller_1.AdminController().unesiPredmet(req, res));
+adminRouter.route("/dohvatiCasoveProslaGodina").get((req, res) => new admin_controller_1.AdminController().dohvatiCasoveProslaGodina(req, res));
+adminRouter.route("/dohvatiCV").get((req, res) => new admin_controller_1.AdminController().dohvatiCV(req, res));
+adminRouter.route("/odbijen").get((req, res) => new admin_controller_1.AdminController().odbijen(req, res));
+exports.default = adminRouter;

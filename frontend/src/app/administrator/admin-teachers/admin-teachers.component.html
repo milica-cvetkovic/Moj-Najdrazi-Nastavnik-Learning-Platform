@@ -1,0 +1,39 @@
+<app-admin-navbar></app-admin-navbar>
+<div class="container">
+  
+<h2>Nastavnici</h2>
+<table mat-table [dataSource]="nastavnici" class="mat-elevation-z8">
+
+    <ng-container matColumnDef="rb">
+      <th mat-header-cell *matHeaderCellDef> No. </th>
+      <td mat-cell *matCellDef="let nastavnik; let i=index"> {{i+1}} </td>
+    </ng-container>
+    
+      <ng-container matColumnDef="ime">
+        <th mat-header-cell *matHeaderCellDef> Ime </th>
+        <td mat-cell *matCellDef="let nastavnik"> {{nastavnik.ime}}</td>
+      </ng-container>
+    
+      <ng-container matColumnDef="prezime">
+        <th mat-header-cell *matHeaderCellDef> Prezime </th>
+        <td mat-cell *matCellDef="let nastavnik"> {{nastavnik.prezime}} </td>
+      </ng-container>
+    
+      <ng-container matColumnDef="azuriraj">
+        <th mat-header-cell *matHeaderCellDef> Ažuriraj </th>
+        <td mat-cell *matCellDef="let nastavnik">
+            <button mat-raised-button (click)="azuriraj(nastavnik)">Ažuriraj</button>    
+        </td>
+      </ng-container>
+  
+      <ng-container matColumnDef="deaktiviraj">
+        <th mat-header-cell *matHeaderCellDef> Deaktiviraj </th>
+        <td mat-cell *matCellDef="let nastavnik">
+            <button mat-raised-button (click)="deaktiviraj(nastavnik)">Deaktiviraj</button>
+        </td>
+      </ng-container>
+    
+      <tr mat-header-row *matHeaderRowDef="kolone"></tr>
+      <tr mat-row *matRowDef="let row; columns: kolone;"></tr>
+    </table>  
+</div>

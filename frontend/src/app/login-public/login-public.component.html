@@ -1,0 +1,29 @@
+<app-home-navbar></app-home-navbar>
+<div class="container">
+
+  <h2>Login</h2>
+
+    <div class="form-outline mb-4">
+      <input type="text" id="korisnickoIme" class="form-control" [(ngModel)]="korisnickoIme" />
+      <label class="form-label" for="korisnickoIme">Korisničko ime</label>
+    </div>
+
+    <div class="form-outline mb-4">
+      <input type="password" id="lozinka" class="form-control" [(ngModel)]="lozinka"/>
+      <label class="form-label" for="lozinka">Lozinka</label>
+    </div>
+
+    <div class="row mb-4">
+      <div class="col">
+        <a href="#"  routerLink="/password-forgotten" routerLinkActive="active">Zaboravili ste lozinku?</a>
+      </div>
+    </div>
+  
+    <button type="button" class="btn btn-secondary btn-block mb-4" (click)="login()">Uloguj se</button>
+  
+    <div class="text-center">
+        <h4>Niste registrovani?</h4>
+        <button type="button" class="btn btn-secondary btn-block mb-4" (click)="registerUcenik()">Registruj se kao učenik</button> &nbsp;
+        <button type="button" class="btn btn-secondary btn-block mb-4" (click)="registerNastavnik()">Registruj se kao nastavnik</button>
+    </div>
+</div>
